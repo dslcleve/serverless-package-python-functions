@@ -1,6 +1,6 @@
 {
   "name": "serverless-package-python-functions",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": "Serverless Framework plugin to package python functions and their requirements",
   "main": "index.js",
   "scripts": {},
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ubaniabalogun/serverless-package-python-functions.git"
+    "url": "git+https://github.com/dslcleve/serverless-package-python-functions.git"
   },
   "keywords": [
     "serverless",

@@ -99,7 +99,8 @@ class PkgPyFuncs {
     }
 
     if (ret.stderr.length != 0){
-      throw new this.serverless.classes.Error(`[serverless-package-python-functions] ${ret.stderr.toString()}`)
+      this.log(ret.stderr.toString())
+//      throw new this.serverless.classes.Error(`[serverless-package-python-functions] ${ret.stderr.toString()}`)
     }
 
     const out = ret.stdout.toString()
